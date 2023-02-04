@@ -1,44 +1,18 @@
 
-<style>
-  h2{
-    margin: 8px 0;
-  }
-
-  p {
-    margin: 0;
-  }
-
-
-  .toolbar {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    height: 60px;
-    /* display: flex; */
-    align-items: center;
-    background-color: #1976d2cc;
-    color: white;
-    font-weight: 600;
-  }
-
-  .content{
-    top: 0;
-  }
-
- 
-
-
-
- 
-</style>
 <!-- Toolbar -->
-<div class="toolbar" role="banner">
-  <h2>Hello Sean</h2>
-  <p style="color: black;">
-    Welcome to Your First Angular Project
-  </p>
-</div>
+<main>
+  <div class="toolbar" role="banner">
+    <h2>Hello Sean</h2>
+    <p style="color: black;">
+      Welcome to Your First Angular Project
+    </p>
+  </div>
+
+  <section class="head">
+    <app-header></app-header>
+    <app-background></app-background>
+  </section>
+</main>
 
 
 <router-outlet></router-outlet>

@@ -1,0 +1,7 @@
+.image-bg{
+    background: rgba(0,0,0,0.4) url("https://images.unsplash.com/photo-1661956602139-ec64991b8b16?ixlib=rb-4.0.3&ixid=MnwxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHwxfHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=700&q=60");
+    background-blend-mode: darken;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+}
