@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { BackgroundComponent } from './background/background.component';
 import { FooterComponent } from './footer/footer.component';
+import { ElewaGroupImageAndTextBannerComponent } from './elewa-group-image-and-text-banner/elewa-group-image-and-text-banner.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     BackgroundComponent,
-    FooterComponent
+    FooterComponent,
+    ElewaGroupImageAndTextBannerComponent
   ],
   imports: [
     BrowserModule,
